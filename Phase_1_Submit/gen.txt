@@ -1,0 +1,34 @@
+-Customers
+
+For the customers' names, addresses, and phone numbers we pulled from an online white pages
+database containing real data. The balance, payment count, payment total, delivery total,
+discounts fields were generated from a sales simulator. 
+The start date for all customers was January 1, 2017.
+
+-Distribution Stations
+
+We made up the address fields of the distribution stations. Each distribution station was 
+named after the area it is located in. The distribution station id was an integer from 1-8. 
+The sales total was generated from a sales simulator. The sales tax was 7%.
+
+-Warehouse
+
+We made up the address fields of the warehouses. The warehouse was named Pittsburgh warehouse.
+The warehouse id was 1. The sales total and sales tax were generated from a sales simulator.
+
+-Warehouse stock
+The item quantity, items sold, and item sales fields were generated from a sales simulator.
+
+-Orders
+All customers have 10 orders, 1 each day starting on January 1, 2017. The delivery date
+was the day after the order date. All orders were completed. Each order contained 5 items.
+
+-Items
+The item ids were integers from 1-500. To obtain the item names and prices we loaded a
+shopping cart on the Giant Eagle web site with 500 items and exported the data.
+
+-Line Items
+The line items for all orders were generated from the sales simulator. There were 5 items
+on each order (with possible duplicates). 
+
+
